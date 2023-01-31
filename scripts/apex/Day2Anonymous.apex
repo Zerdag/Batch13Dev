@@ -1,0 +1,1 @@
+system.debug('Today is second day of developer class.');
