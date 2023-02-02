@@ -1,4 +1,5 @@
 public class Calculator {
+    // parameterless method
     public void welcomeMessage() {
         system.debug('welcome to apex calc');
     }
@@ -6,7 +7,7 @@ public class Calculator {
     public void printNewMessage(string msg) {
         system.debug(msg);
     }
-
+    //parameterized method
     void privatePrintMessage (string msg) {
         system.debug ( 'inside private method Nowww');
         system.debug(msg);
